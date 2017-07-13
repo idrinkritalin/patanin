@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PATANIN</title>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/libs/paper-full.min.js"></script>
+</head>
+<body>
+
+<canvas id="myCanvas" resize></canvas>
+<footer>
+    <p>made with ❤️ by <a href="http://www.idrinkritalin.it">idrinkritalin.it</a></p>
+</footer>
+
+<a href="https://github.com/idrinkritalin/super-to-do-list"><img id="fork" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a>
+
+<script src="assets/js/app.js" type="text/javascript"></script>
+<script type="text/paperscript" canvas="myCanvas">
+function onKeyDown(event){
+    circlePosition();
+    new Path.Circle(new Point(x, y), d).fillColor = fill;
+}
+</script>
+</body>
+</html>
