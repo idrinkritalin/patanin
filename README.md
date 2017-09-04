@@ -2,7 +2,7 @@
 Drum machine inspired to **[patatap.com](http://www.patatap.com)**, but created from scratch with old fashioned vanilla JS and with an Industrial mood.
 Yes, I'm fan of Nine Inch Nails: that's why pataNIN.
 
-![nin](assets/nin.gif)
+![nin](http://www.idrinkritalin.it/patanin/assets/nin.gif)
 
 **LIBRARIES & SOUNDS:**
 
